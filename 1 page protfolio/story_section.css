@@ -1,0 +1,19 @@
+#story{
+    margin: auto;
+    width: 50%;
+    
+    
+    
+
+}
+#paragraph{
+    width: 70%;
+    float: left;
+    
+    height: 100px;
+}
+#paragraph_style{
+    font-size: 18px;
+    color: white;
+    line-height: 30px;
+}

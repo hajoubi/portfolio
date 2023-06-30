@@ -1,0 +1,231 @@
+body {
+    
+                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    margin: 0;              /* optional, center the image */
+    
+    background-color: rgba(0, 0, 0, 0.936);
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(zig_____.ttf);
+}
+h3{
+ text-align: center;
+ font-size: 50px;
+ text-shadow: 2px 2px #ffffff47;
+ color: white;
+ 
+
+
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 2px #ffffff47;
+    color: white;
+   
+ 
+}
+h2{
+    color: white;
+    display: inline;
+}
+b{
+    text-decoration-line: underline;
+    text-decoration-color:  rgb(3, 235, 123);
+}
+#imagesection{
+    width:50%;
+    display: inline;
+    float: right;   
+    background-image: url(cv\ photo.png);
+    height: 400px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin-left: -10%;
+   
+    
+    
+}
+li{
+    display: inline;
+    padding: 10px;
+
+}
+ul{
+    
+    width: 100%;
+    opacity: 70%;
+    float: right;
+    
+    
+}
+ul:hover{
+    opacity: 100%;
+   
+}
+#para{
+    
+    font-size: 17px;
+    
+    color: rgb(1, 255, 1);
+    font-weight: 500;
+    opacity: 80%;
+    line-height: 30px;
+    text-shadow: 1px 1px #f9f7f761;
+    padding-left: 150px;
+    text-align: left;
+    padding-right: 50px;
+}
+h4{
+    padding-top: 50px;
+    font-size: 18px;
+    margin-left: 90px;
+    color: rgb(196, 196, 196);
+    text-shadow: 2px 2px #302e2efb;
+}
+
+h4:hover{
+    text-decoration-line: underline;
+    text-decoration-color:  rgb(3, 235, 123);
+    text-underline-offset: 3px;
+    text-decoration-thickness: 2px;
+    
+}
+a:link{
+    text-decoration: none;
+}
+.container {
+    width:800px;
+    height:200px;
+    
+    padding-top:20px;
+    padding-left:15px;
+    padding-right:1px;
+   
+    margin: auto;
+}
+#st-box {
+    float:left;
+    width:180px;
+    height:160px;
+    
+    
+    
+}
+#nd-box {
+    float:left;
+    width:180px;
+    height:160px;
+   
+    margin-left:100px;
+    
+   
+}
+#rd-box {
+    float:right;
+    width:180px;
+    height:160px;
+    
+    
+    
+}
+
+h5{
+    font-size: 38px;
+    color: white;
+    box-shadow: 2px 2px #302e2efb ;
+    text-align: center;
+    text-shadow: 2px 2px #ffffff47;
+    height: 40px;
+}
+
+.description{
+  font-weight: 500;
+  font-size:18px;
+  color: white;
+  opacity: 100%;
+  margin: auto;
+  text-align: left;
+  width: 100%;
+  height: 160px;
+  word-spacing: 5px;
+  line-height: 25px;
+  padding-left: 10px;
+  
+}
+#section1{
+    background-image: url(89781.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 70%;
+    width: 100%;
+}
+#section1:hover{
+    opacity: 100%;
+}
+ /* this css work if the width of the browser = 600px */
+@media screen and (max-width: 600px) {
+
+    #section1{
+        
+        opacity: 100%;
+        background-size: cover;
+        width: 200% ;
+        
+
+    }
+    h1{
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 2px 2px #ffffff47;
+    color: white;
+    }
+    #para{
+        font-size: 10px;
+    
+        color: rgb(1, 255, 1);
+        font-weight: 400;
+        opacity: 80%;
+        line-height: 20px;
+        text-shadow: 1px 1px #f9f7f761;
+       
+        
+        text-align: left;
+        
+    }
+    
+    #imagesection{
+        width: 300px;
+        display: inline;
+        float: right;   
+        background-image: url(cv\ photo.png);
+        height: 300px;
+        background-size:contain;
+        background-repeat: no-repeat;
+        margin-left: -10%;
+    }
+    .description{
+        font-weight: 500;
+        font: size 13px;
+        color: white;
+        opacity: 100%;
+        margin: auto;
+        text-align: left;
+        width: 100%;
+        height: 100%;
+        word-spacing: 5px;
+        line-height: 25px;
+    }
+  
+
+}
+.container3 {
+    display: flex;
+  }
+  .container3 > div {
+    flex: 1; /*grow*/
+    
+  }
